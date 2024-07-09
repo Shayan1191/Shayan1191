@@ -14,22 +14,22 @@ def find_next_amount(current_amount):
     return current_amount * 5
 
 def check_website(url):
-  5da02e0e-4c4b-45f4-b261-ba595b85c091    response = requests.get(url)
+  https://jetbet90.com    response = requests.get(url)
     if response.status_code == 200:
         print(f"وب‌سایت {url} در دسترس است.")
     else:
         print(f"وب‌سایت {url} در دسترس نیست.")
 
 if __name__ == "__main__":
-    entered_amount = float(input"10000: "))
+    entered_amount = float(input"1000: "))
     next_amount = find_next_amount(entered_amount)
     
-    if next_amount >= 100000:
+    if next_amount >= 10000:
         print("شما برنده شدید!")
     elif next_amount < 100000 and next_amount >= entered_amount:
         print(f"شما به مبلغ {next_amount} رسیدید، اما برنده نیستید.")
     else:
         print(f"مبلغ بعدی باید حداقل {next_amount} باشد تا برنده شوید.")
     
-    website_url = input("https//:jetbet900.com ")
+    website_url = input("https://github.com/Shayan1191/Shm-13671371.git ")
     check_website(website:url)
